@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@font-face {
+  font-family: 'Brandon-Grotesque-Medium';
+  src: url("/src/assets/brandon-grotesque-regular-italic-58a8a456c4724.otf");
+}
+
+body {
+  height: 100%;
+  background-color: var(--white);
+  font-family: 'Open Sans';
+}
+/*# sourceMappingURL=index.css.map */
