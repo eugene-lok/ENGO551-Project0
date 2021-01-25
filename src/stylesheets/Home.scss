@@ -12,3 +12,38 @@ svg {
 svg:hover {
     fill: $orange;
 }
+
+.section-about {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    p {
+        color: $grey;
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    h1 {
+        padding-top: 20px;
+    }  
+}
+
+.social-icons {
+    width: 100%;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-bio {
+    h3 {
+        font-size: 36px;
+    }
+    p {
+        font-size: 21px;
+    }
+}
+
+.section-about-container {
+    width: 300px;
+}
+

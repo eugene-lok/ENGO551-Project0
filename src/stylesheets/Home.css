@@ -10,6 +10,16 @@ body {
   font-family: 'Open Sans';
 }
 
+.container {
+  margin: 0;
+  padding: 0px 40px 0px 40px;
+  width: 100vw;
+}
+
+.navbar-collapse {
+  float: right;
+}
+
 .navbar-brand {
   font-family: "Brandon-Grotesque-Light";
   font-size: 36px;
@@ -17,6 +27,10 @@ body {
 
 .navbar {
   font-family: "Brandon-Grotesque-Light";
+  font-size: 24px;
+}
+
+.navbar-link {
   font-size: 24px;
 }
 
@@ -31,5 +45,48 @@ svg {
 
 svg:hover {
   fill: #EC3600;
+}
+
+.section-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.section-about p {
+  color: #777777;
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+.section-about h1 {
+  padding-top: 20px;
+}
+
+.social-icons {
+  width: 100%;
+  padding-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section-bio h3 {
+  font-size: 36px;
+}
+
+.section-bio p {
+  font-size: 21px;
+}
+
+.section-about-container {
+  width: 300px;
 }
 /*# sourceMappingURL=home.css.map */
