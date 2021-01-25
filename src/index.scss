@@ -28,6 +28,7 @@ body {
 
 .navbar-collapse {
     float: right;
+    padding-top: 10px;
 }
 
 .navbar-brand {
@@ -48,5 +49,16 @@ body {
     }
 }
 
+@media (max-width: 1200px) {
+    .container {
+        text-align: center;
+    }
+    .navbar-header {
+        
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+}
 
 
