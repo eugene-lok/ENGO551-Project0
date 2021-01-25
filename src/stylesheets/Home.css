@@ -8,6 +8,7 @@ body {
   height: 100%;
   background-color: var(--white);
   font-family: 'Open Sans';
+  overflow-x: hidden;
 }
 
 .container {
@@ -41,9 +42,6 @@ body {
 }
 
 @media (max-width: 1200px) {
-  .container {
-    text-align: center;
-  }
   .navbar-collapse {
     text-align: center;
   }
@@ -63,6 +61,7 @@ svg:hover {
 }
 
 .section-about {
+  padding-top: 5vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,6 +79,10 @@ svg:hover {
 
 .section-about h1 {
   padding-top: 20px;
+}
+
+.section-about-container {
+  width: 300px;
 }
 
 .social-icons {
@@ -105,7 +108,22 @@ svg:hover {
   font-size: 21px;
 }
 
-.section-about-container {
-  width: 300px;
+.section-bio a {
+  color: #EC3600;
+}
+
+.section-bio a:hover {
+  color: #6E1900;
+  text-decoration: none;
+}
+
+.section-bio-container {
+  padding: 0px 5vw 0px 5vw;
+}
+
+@media (max-width: 1200px) {
+  .section-bio {
+    margin-top: 10px;
+  }
 }
 /*# sourceMappingURL=home.css.map */

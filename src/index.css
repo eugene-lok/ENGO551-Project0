@@ -8,6 +8,7 @@ body {
   height: 100%;
   background-color: var(--white);
   font-family: 'Open Sans';
+  overflow-x: hidden;
 }
 
 .container {
@@ -41,10 +42,8 @@ body {
 }
 
 @media (max-width: 1200px) {
-  .container {
-    text-align: center;
-  }
   .navbar-collapse {
     text-align: center;
   }
+}
 /*# sourceMappingURL=index.css.map */

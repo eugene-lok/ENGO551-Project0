@@ -14,6 +14,7 @@ svg:hover {
 }
 
 .section-about {
+    padding-top: 5vh;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -25,6 +26,10 @@ svg:hover {
     h1 {
         padding-top: 20px;
     }  
+}
+
+.section-about-container {
+    width: 300px;
 }
 
 .social-icons {
@@ -42,9 +47,25 @@ svg:hover {
     p {
         font-size: 21px;
     }
+    a {
+        color: $orange;
+    }
+    a:hover {
+        color: $orange-dark;
+        text-decoration: none;
+    }
 }
 
-.section-about-container {
-    width: 300px;
+.section-bio-container {
+    padding: 0px 5vw 0px 5vw;
 }
+
+@media (max-width: 1200px) {
+    .section-bio {
+        margin-top: 10px;
+    }
+}
+
+
+
 
