@@ -39,4 +39,12 @@ body {
 .navbar-link a {
   color: #0F20BD !important;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    text-align: center;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
 /*# sourceMappingURL=index.css.map */
