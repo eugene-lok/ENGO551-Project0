@@ -1,17 +1,32 @@
 // Global Fonts
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @font-face {
-    font-family: 'Brandon-Grotesque-Medium';
-    src: url('/src/assets/brandon-grotesque-regular-italic-58a8a456c4724.otf');
+    font-family: 'Brandon-Grotesque-Light';
+    src: url('/src/assets/Brandon_light.otf');
 }
 
 // Global Colours 
 $white: #FFFFFF;
+$orange: #EC3600;
+$orange-dark: #6E1900;
+$blue: #0F20BD;
+$blue-dark: #0F175E;
+$navFont: 'Brandon-Grotesque-Light';
 
 body {
     height: 100%;
     background-color: var(--white);
     font-family: 'Open Sans';
+}
+
+.navbar-brand {
+    font-family: $navFont;
+    font-size: 36px;
+}
+
+.navbar {
+    font-family: $navFont;
+    font-size: 24px;
 }
 
 
