@@ -1,1 +1,100 @@
-/* No CSS *//*# sourceMappingURL=Contact.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@font-face {
+  font-family: 'Brandon-Grotesque-Light';
+  src: url("/src/assets/Brandon_light.otf");
+}
+
+body {
+  height: 100%;
+  background-color: var(--white);
+  font-family: 'Open Sans';
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0;
+  padding: 0px 40px 0px 40px;
+  width: 100vw;
+}
+
+.navbar-collapse {
+  float: right;
+  padding-top: 10px;
+}
+
+.navbar-brand {
+  font-family: "Brandon-Grotesque-Light";
+  font-size: 36px;
+}
+
+.navbar {
+  font-family: "Brandon-Grotesque-Light";
+  font-size: 24px;
+}
+
+.navbar-link {
+  margin: 0px 30px 0px 30px;
+  font-size: 24px;
+  color: #0F20BD !important;
+  text-decoration: none !important;
+}
+
+.navbar-link:hover {
+  color: #0F175E !important;
+}
+
+@media (max-width: 1200px) {
+  .navbar-collapse {
+    text-align: center;
+  }
+}
+
+h1 {
+  font-size: 24px;
+}
+
+label {
+  font-weight: normal;
+}
+
+form {
+  padding-top: 20px;
+}
+
+input[type="name"] {
+  width: 250px;
+}
+
+input[type="email"] {
+  width: 300px;
+}
+
+input[type="message"] {
+  width: 80%;
+}
+
+.section-contact {
+  padding-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form-control {
+  border: 1px solid #777777;
+}
+
+.form-control:focus {
+  border: 2px solid #0F20BD;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-primary {
+  background-image: none;
+  background-color: #0F20BD;
+}
+
+.btn-primary:hover {
+  background-color: #0F175E;
+}
+/*# sourceMappingURL=Contact.css.map */
