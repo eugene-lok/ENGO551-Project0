@@ -1,0 +1,43 @@
+@import "../index.scss";
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 80%;
+}
+
+.projects-container {
+    width: 90%;
+    margin: 0 auto;
+    a { 
+        float: left;
+        color: $white;
+        background-color: $blue;
+        padding: 12px 23px 11px 23px;
+        border-radius: 8px;
+        text-decoration: none;
+        margin-bottom: 25px;
+    }
+    a:hover {
+        background-color: $blue-dark;
+    }
+}
+
+.project-text-container, .project-img-container {
+    text-align: center;
+}
+
+.project-title, .project-description {
+    text-align: left;
+}
+
+.project-item {
+    margin: 50px 0px 50px 0px;
+}
+
+.btn-primary {
+    float: left;
+}
+
