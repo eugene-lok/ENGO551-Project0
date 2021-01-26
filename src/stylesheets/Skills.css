@@ -1,1 +1,77 @@
-/* No CSS *//*# sourceMappingURL=Skills.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@font-face {
+  font-family: 'Brandon-Grotesque-Light';
+  src: url("/src/assets/Brandon_light.otf");
+}
+
+body {
+  height: 100%;
+  background-color: var(--white);
+  font-family: 'Open Sans';
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0;
+  padding: 0px 40px 0px 40px;
+  width: 100vw;
+}
+
+.navbar-collapse {
+  float: right;
+  padding-top: 10px;
+}
+
+.navbar-brand {
+  font-family: "Brandon-Grotesque-Light";
+  font-size: 36px;
+}
+
+.navbar {
+  font-family: "Brandon-Grotesque-Light";
+  font-size: 24px;
+}
+
+.navbar-link {
+  margin: 0px 30px 0px 30px;
+  font-size: 24px;
+  color: #0F20BD !important;
+  text-decoration: none !important;
+}
+
+.navbar-link:hover {
+  color: #0F175E !important;
+}
+
+@media (max-width: 1200px) {
+  .navbar-collapse {
+    text-align: center;
+  }
+}
+
+h1 {
+  padding-top: 65px;
+  font-size: 72px;
+  text-align: center;
+}
+
+table {
+  font-family: "Open Sans";
+  margin: 40px 0px 40px 0px;
+  table-layout: auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th {
+  border: none;
+  font-weight: normal;
+  text-align: center;
+  font-size: 22px;
+}
+
+td {
+  border: none;
+  font-size: 14px;
+}
+/*# sourceMappingURL=Skills.css.map */

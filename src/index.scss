@@ -1,0 +1,62 @@
+// Global Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face {
+    font-family: 'Brandon-Grotesque-Light';
+    src: url('/src/assets/Brandon_light.otf');
+}
+
+// Global Colours 
+$white: #FFFFFF;
+$grey: #777777;
+$orange: #EC3600;
+$orange-dark: #6E1900;
+$blue: #0F20BD;
+$blue-dark: #0F175E;
+$navFont: 'Brandon-Grotesque-Light';
+$bodyFont: 'Open Sans';
+
+body {
+    height: 100%;
+    background-color: var(--white);
+    font-family: 'Open Sans';
+    overflow-x: hidden;
+}
+
+.container {
+    margin: 0;
+    padding: 0px 40px 0px 40px;
+    width: 100vw;
+}
+
+.navbar-collapse {
+    float: right;
+    padding-top: 10px;
+}
+
+.navbar-brand {
+    font-family: $navFont;
+    font-size: 36px;
+}
+
+.navbar {
+    font-family: $navFont;
+    font-size: 24px;
+}
+
+.navbar-link {
+    margin: 0px 30px 0px 30px;
+    font-size: 24px;
+    color: $blue !important;
+    text-decoration: none !important;
+}
+
+.navbar-link:hover {
+    color: $blue-dark !important;
+}
+@media (max-width: 1200px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+}
+
+

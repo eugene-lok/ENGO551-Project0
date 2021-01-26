@@ -1,1 +1,94 @@
-/* No CSS *//*# sourceMappingURL=Projects.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@font-face {
+  font-family: 'Brandon-Grotesque-Light';
+  src: url("/src/assets/Brandon_light.otf");
+}
+
+body {
+  height: 100%;
+  background-color: var(--white);
+  font-family: 'Open Sans';
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0;
+  padding: 0px 40px 0px 40px;
+  width: 100vw;
+}
+
+.navbar-collapse {
+  float: right;
+  padding-top: 10px;
+}
+
+.navbar-brand {
+  font-family: "Brandon-Grotesque-Light";
+  font-size: 36px;
+}
+
+.navbar {
+  font-family: "Brandon-Grotesque-Light";
+  font-size: 24px;
+}
+
+.navbar-link {
+  margin: 0px 30px 0px 30px;
+  font-size: 24px;
+  color: #0F20BD !important;
+  text-decoration: none !important;
+}
+
+.navbar-link:hover {
+  color: #0F175E !important;
+}
+
+@media (max-width: 1200px) {
+  .navbar-collapse {
+    text-align: center;
+  }
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 80%;
+}
+
+.projects-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.projects-container a {
+  float: left;
+  color: #FFFFFF;
+  background-color: #0F20BD;
+  padding: 12px 23px 11px 23px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-bottom: 25px;
+}
+
+.projects-container a:hover {
+  background-color: #0F175E;
+}
+
+.project-text-container, .project-img-container {
+  text-align: center;
+}
+
+.project-title, .project-description {
+  text-align: left;
+}
+
+.project-item {
+  margin: 50px 0px 50px 0px;
+}
+
+.btn-primary {
+  float: left;
+}
+/*# sourceMappingURL=Projects.css.map */

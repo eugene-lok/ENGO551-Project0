@@ -1,0 +1,75 @@
+@import "../index.scss";
+
+#me-photo {
+    width: 250px;
+    border-radius: 50%;
+}
+
+svg {
+    fill: black;
+}
+
+svg:hover {
+    fill: $orange;
+}
+
+.section-about {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    p {
+        color: $grey;
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    h1 {
+        padding-top: 20px;
+    }  
+}
+
+.section-about-container {
+    width: 300px;
+}
+
+.social-icons {
+    width: 100%;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-bio {
+    padding-top: 30px;
+    h3 {
+        font-size: 36px;
+    }
+    p {
+        font-size: 21px;
+    }
+    a {
+        color: $orange;
+    }
+    a:hover {
+        color: $orange-dark;
+        text-decoration: none;
+    }
+}
+
+.section-bio-container {
+    padding: 0px 5vw 0px 5vw;
+}
+
+.list-exp-item {
+    font-size: 21px;
+}
+
+@media (max-width: 1200px) {
+    .section-bio {
+        margin-top: 10px;
+    }
+}
+
+
+
+

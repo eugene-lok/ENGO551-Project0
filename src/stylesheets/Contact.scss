@@ -1,0 +1,52 @@
+@import "../index.scss";
+
+h1 {
+    font-size: 24px;
+}
+
+label {
+    font-weight: normal;
+}
+
+form {
+    padding-top: 20px;
+}
+
+input[type= "name"] {
+    width: 250px;
+}
+
+input[type= "email"] {
+    width: 300px;
+}
+
+input[type= "message"] {
+    width: 80%;
+}
+
+.section-contact {
+    padding-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-control {
+    border: 1px solid $grey;
+}
+
+.form-control:focus {
+    border: 2px solid $blue;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-image: none;
+    background-color: $blue;
+}
+
+.btn-primary:hover{
+    background-color: $blue-dark;
+}
+
+
+

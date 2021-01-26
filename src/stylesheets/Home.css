@@ -1,1 +1,135 @@
-/* No CSS *//*# sourceMappingURL=Home.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@font-face {
+  font-family: 'Brandon-Grotesque-Light';
+  src: url("/src/assets/Brandon_light.otf");
+}
+
+body {
+  height: 100%;
+  background-color: var(--white);
+  font-family: 'Open Sans';
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0;
+  padding: 0px 40px 0px 40px;
+  width: 100vw;
+}
+
+.navbar-collapse {
+  float: right;
+  padding-top: 10px;
+}
+
+.navbar-brand {
+  font-family: "Brandon-Grotesque-Light";
+  font-size: 36px;
+}
+
+.navbar {
+  font-family: "Brandon-Grotesque-Light";
+  font-size: 24px;
+}
+
+.navbar-link {
+  margin: 0px 30px 0px 30px;
+  font-size: 24px;
+  color: #0F20BD !important;
+  text-decoration: none !important;
+}
+
+.navbar-link:hover {
+  color: #0F175E !important;
+}
+
+@media (max-width: 1200px) {
+  .navbar-collapse {
+    text-align: center;
+  }
+}
+
+#me-photo {
+  width: 250px;
+  border-radius: 50%;
+}
+
+svg {
+  fill: black;
+}
+
+svg:hover {
+  fill: #EC3600;
+}
+
+.section-about {
+  padding-top: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.section-about p {
+  color: #777777;
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+.section-about h1 {
+  padding-top: 20px;
+}
+
+.section-about-container {
+  width: 300px;
+}
+
+.social-icons {
+  width: 100%;
+  padding-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section-bio {
+  padding-top: 30px;
+}
+
+.section-bio h3 {
+  font-size: 36px;
+}
+
+.section-bio p {
+  font-size: 21px;
+}
+
+.section-bio a {
+  color: #EC3600;
+}
+
+.section-bio a:hover {
+  color: #6E1900;
+  text-decoration: none;
+}
+
+.section-bio-container {
+  padding: 0px 5vw 0px 5vw;
+}
+
+.list-exp-item {
+  font-size: 21px;
+}
+
+@media (max-width: 1200px) {
+  .section-bio {
+    margin-top: 10px;
+  }
+}
+/*# sourceMappingURL=home.css.map */

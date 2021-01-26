@@ -1,0 +1,29 @@
+@import "../index.scss";
+
+h1 {
+    padding-top: 65px;
+    font-size: 72px;
+    text-align: center;
+}
+
+table  {
+    font-family: $bodyFont;
+    margin: 40px 0px 40px 0px;
+    table-layout: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th {
+    border: none;
+    font-weight: normal;
+    text-align: center;
+    font-size: 22px;
+}
+
+td {
+    border: none;
+    font-size: 14px;
+}
+
+
